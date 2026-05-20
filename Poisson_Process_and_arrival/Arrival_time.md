@@ -40,7 +40,7 @@ $$
 
 Here is the Poisson distribution for $\lambda = 20$ from $x=1$ to $50$.
 
-![Poisson distribution plot](Poissonfigure1.png)
+![Poisson distribution plot](Poisson_Process_and_arrival/Poissonfigure1.png)
 
 Historically, it is said that Poisson developed this distribution while studying rare events, such as soldiers being killed by horse kicks. In that example, the average was about 0.61 people per year. Since then, the Poisson distribution has been used to predict the number of customers coming to stores or banks, as well as many other random arrival events.
 
@@ -164,7 +164,7 @@ So far, we have only introduced the definition of a Poisson process. Now, let’
 
 The figure below shows how the cumulative number of arrivals increases over time.
 
-![Poisson process arrival diagram](poissonexample.png)
+![Poisson process arrival diagram](Poisson_Process_and_arrival/poissonexample.png)
 
 Here, I want to briefly explain why $\lambda$ is called the arrival rate.
 
@@ -369,7 +369,7 @@ plt.show()
 
 The figure below shows simulated arrival times. Each vertical line represents one arrival event.
 
-![Simulated arrival times](image2.png)
+![Simulated arrival times](Poisson_Process_and_arrival/image2.png)
 
 This figure illustrates the main idea of this note. Even though the average arrival rate is constant, the arrivals do **not** occur at regular intervals. Sometimes there is a long gap with no arrivals, while at other times several arrivals happen close together.
 
@@ -377,5 +377,5 @@ This is exactly why, when you enter a store and see nobody there, but then sudde
 
 In other words, random arrivals do not look evenly spaced. They naturally produce quiet periods and crowded periods. So the sudden formation of a line after you enter the store does not necessarily mean that you caused it. It may simply be a typical fluctuation of a Poisson process.
 
-![Simulated arrival times](fnalimage.png)
+![Simulated arrival times](Poisson_Process_and_arrival/fnalimage.png)
 
